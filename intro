@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            Intro to Bootstrap
+        </title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdncdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+     <script src="https://stackpath.bootstrapcdncdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <style>
+            .col-sm{
+                text-align: center;
+                border: 3px solid black;
+            }
+            .col-lg{
+                text-align:center;
+                border:3px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            Grids using Bootstrap
+        </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    One of three columns
+                </div>
+                <div class="col-sm">
+                    One of three columns
+                </div>
+                <div class="col-sm">
+                    One of three columns
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

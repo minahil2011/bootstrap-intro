@@ -1,0 +1,29 @@
+<html>
+    <header>
+        <title>
+            Grids
+        </title>
+        <link rel="stylesheet" href="style.css">
+
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <style>
+        </style>
+    </header>
+    <body>
+        <div class="container">
+            <h1>
+                Hello World!
+            </h1>
+            <p>
+                Resize the browser window to see the effect
+            </p>
+            <div class="row">
+                <div class="col-sm-3 col-md-6 col-lg-12" style="background-color: blue;">Blue</div><br>
+                <div class="col-sm-12 col-md-3 col-lg-6" style="background-color: blueviolet;">Voilet</div><br>
+                <div class="col-sm-6 col-md-12 col-lg-3" style="background-color: rgb(211, 157, 233);">Pink</div><br>
+            </div>
+        </div>
+    </body>
+</html>
